@@ -1,5 +1,15 @@
 # @urql/core
 
+## 2.4.0
+
+### Minor Changes
+
+- Allow for repeated mutations that have similar inputs which results in the same key, this is for instance the case with file uploads, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2189](https://github.com/FormidableLabs/urql/pull/2189))
+
+### Patch Changes
+
+- Bump `@graphql-typed-document-node/core` to 3.1.1 for `graphql@16` support, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2153](https://github.com/FormidableLabs/urql/pull/2153))
+
 ## 2.3.6
 
 ### Patch Changes
